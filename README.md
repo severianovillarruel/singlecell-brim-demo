@@ -15,6 +15,7 @@ The work showcased:
 **Slide Deck**
 - [![Slide preview](slides/scArchesPreview.png)](slides/scArchesPresentation.pdf)
 - [scArches Repo](https://github.com/theislab/scarches)
+
 **Contents**
 - `data/` (created by script)
 - `figures/` (created by script)
