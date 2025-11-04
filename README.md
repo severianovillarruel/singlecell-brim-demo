@@ -1,8 +1,8 @@
-# Single-cell Analysis Demo (BRIM-Inspired)
+# Revealing cell populations driving resistance in melanoma
 
 ## Background & Slide Deck
 
-This demo is based on my BRIM single-cell RNA-seq analysis project, which I presented at internal research meetings.
+This demo is based on my targeted single-cell RNA-seq analysis project, which I presented at internal research meetings.
 The original study analyzed **clinical trial data** from melanoma patients treated with BRAF inhibitors and integrated it
 with public single-cell reference datasets.
 
