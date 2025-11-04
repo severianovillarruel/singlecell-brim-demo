@@ -13,7 +13,7 @@ The work showcased:
 - End-to-end **single-cell integration**, annotation, and visualization in a reproducible framework
 
 **Slide Deck**
-- [📄 View slides (PDF)](slides/scArchesPresentation.pdf)
+- [![Slide preview](slides/slide_preview.png)](slides/scArchesPresentation.pdf)
   
 **Contents**
 - `data/` (created by script)
