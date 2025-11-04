@@ -1,10 +1,20 @@
 # Single-cell Analysis Demo (BRIM-Inspired)
 
-Synthetic scRNA-seq example showing:
-- Embedding + clustering (PCA + k-means)
-- Simple differential expression (CR_PR vs SD_PD)
-- Clear, reproducible structure
+## Background & Slide Deck
 
+This demo is based on my BRIM single-cell RNA-seq analysis project, which I presented at internal research meetings.
+The original study analyzed **clinical trial data** from melanoma patients treated with BRAF inhibitors and integrated it
+with public single-cell reference datasets.
+
+The work showcased:
+- **Model architecture surgery (scArches / scANVI)** for mapping query datasets onto a reference latent space
+- **Differential abundance analysis** using Milo to identify responder-specific microenvironmental changes
+- **Pathway and gene-program discovery** with Spectra and Enrichr
+- End-to-end **single-cell integration**, annotation, and visualization in a reproducible framework
+
+**Slide Deck**
+- [scArches Presentation](https://docs.google.com/presentation/d/18D1Um8_ALO15YuSNlFWVUm7YWM1-OyMI/edit?usp=sharing&ouid=113168124062234116211&rtpof=true&sd=true)
+- 
 **Contents**
 - `data/` (created by script)
 - `figures/` (created by script)
@@ -16,6 +26,3 @@ Synthetic scRNA-seq example showing:
 pip install -r requirements.txt
 python src/generate_data.py
 ```
-
-**Slide Deck**
-- [scArches Presentation](https://docs.google.com/presentation/d/18D1Um8_ALO15YuSNlFWVUm7YWM1-OyMI/edit?usp=sharing&ouid=113168124062234116211&rtpof=true&sd=true)
