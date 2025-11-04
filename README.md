@@ -15,3 +15,7 @@ Synthetic scRNA-seq example showing:
 ```bash
 pip install -r requirements.txt
 python src/generate_data.py
+```
+
+**Slide Deck**
+- [scArches Presentation](https://docs.google.com/presentation/d/18D1Um8_ALO15YuSNlFWVUm7YWM1-OyMI/edit?usp=sharing&ouid=113168124062234116211&rtpof=true&sd=true)
